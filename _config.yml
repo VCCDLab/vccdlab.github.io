@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Prof. # the website title (if blank, full name will be used instead)
+title: Visual Cognition and Decision Group # the website title (if blank, full name will be used instead)
 first_name: Liansheng
 middle_name: 
 last_name: Zhuang
@@ -224,6 +224,8 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/cv.md
+  - _pages/repositories.md
   - purgecss.config.js
   - README.md
   - readme_preview/

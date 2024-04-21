@@ -1,14 +1,9 @@
 ---
 layout: post
 title: news 1
-date: 2015-10-22 15:59:00-0400
+date: 2024-4-15 15:59:00-0400
 inline: true
-related_posts: true
+related_posts: false
 ---
 
-A simple inline announcement.
-fdafdsfd
-
-
-fdafdasfdsa
-fdafafds
+One TPAMI paper was accepted!

@@ -3,7 +3,7 @@ layout: post
 title: news 1
 date: 2015-10-22 15:59:00-0400
 inline: true
-related_posts: false
+related_posts: true
 ---
 
 A simple inline announcement.

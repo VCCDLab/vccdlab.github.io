@@ -14,6 +14,7 @@
 @article{2024-TPAMI-CIAVVR,
   title={Hierarchical Augmentation and Distillation for Class Incremental Audio-Visual Video Recognition},
   author={Zuo, Yukun and Yao, Hantao and Zhuang, Liansheng and Xu, Changsheng},
+  abstract={Audio-visual video recognition (AVVR) aims to integrate audio and visual clues to categorize videos accurately. While existing methods train AVVR models using provided datasets and achieve satisfactory results, they struggle to retain historical class knowledge when confronted with new classes in real-world situations. Currently, there are no dedicated methods for addressing this problem, so this paper concentrates on exploring Class Incremental Audio-Visual Video Recognition (CIAVVR). For CIAVVR, since both stored data and learned model of past classes contain historical knowledge, the core challenge is how to capture past data knowledge and past model knowledge to prevent catastrophic forgetting. As audio-visual data and model inherently contain hierarchical structures, i.e., model embodies low-level and high-level semantic information, and data comprises snippet-level, video-level, and distribution-level spatial information, it is essential to fully exploit the hierarchical data structure for data knowledge preservation and hierarchical model structure for model knowledge preservation. However, current image class incremental learning methods do not explicitly consider these hierarchical structures in model and data. Consequently, we introduce Hierarchical Augmentation and Distillation (HAD), which comprises the Hierarchical Augmentation Module (HAM) and Hierarchical Distillation Module (HDM) to efficiently utilize the hierarchical structure of data and models, respectively. Specifically, HAM implements a novel augmentation strategy, segmental feature augmentation, to preserve hierarchical model knowledge. Meanwhile, HDM introduces newly designed hierarchical (video-distribution) logical distillation and hierarchical (snippet-video) correlative distillation to capture and maintain the hierarchical intra-sample knowledge of each data and the hierarchical inter-sample knowledge between data, respectively. Evaluations on four benchmarks (AVE, AVK-100, AVK-200, and AVK-400) demonstrate that the proposed HAD effectively captures hierarchical information in both data and models, resulting in better preservation of historical class knowledge and improved performance. Furthermore, we provide a theoretical analysis to support the necessity of the segmental feature augmentation strategy.},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
   volume={},
   number={},
@@ -21,6 +22,10 @@
   year={2024},
   pdf={2024-TPMAI-CIAVVR.pdf},
   publisher={IEEE},
+  bibtex_show={true},
+  doi={10.1109/TPAMI.2024.3387946},
+  html={https://ieeexplore.ieee.org/document/10497880},
+  url={},   
   selected = {true}
 }
 
@@ -33,6 +38,10 @@
   month = {},
   address = {},
   abbr={Vision},
+  bibtex_show={},
+  doi={},
+  html={},
+  url={},   
   selected={false}
 }
 
@@ -47,12 +56,17 @@
   publisher = {ACM},
   pdf={2024-WWW-FDM.pdf},
   abbr={Vision},
+  bibtex_show={},
+  doi={},
+  html={},
+  url={},   
   selected={true}
 }
 
 @article{2024-TIP-dPGM,
   title={A Robust Framework for One-shot Key Information Extraction via Deep Partial Graph Matching},
   author={Yao, Minghong and Liu, Zhiguang and Zhuang, Liansheng and Wang, Liangwei and Li, Houqiang},
+  abstract={Text field labelling plays a key role in Key Information Extraction (KIE) from structured document images. However, existing methods ignore the field drift and outlier problems, which limit their performance and make them less robust. This paper casts the text field labelling problem into a partial graph matching problem and proposes an end-to-end trainable framework called Deep Partial Graph Matching (dPGM) for the one-shot KIE task. It represents each document as a graph and estimates the correspondence between text fields from different documents by maximizing the graph similarity of different documents. Our framework obtains a strict one-to-one correspondence by adopting a combinatorial solver module with an extra one-to-(at most)-one mapping constraint to do the exact graph matching, which leads to the robustness of the field drift problem and the outlier problem. Finally, a large one-shot KIE dataset named DKIE is collected and annotated to promote research of the KIE task. This dataset will be released to the research and industry communities. Extensive experiments on both the public and our new DKIE datasets show that our method can achieve state-of-the-art performance and is more robust than existing methods.},
   journal={IEEE Transactions on Image Processing},
   volume={33},
   number={},
@@ -61,6 +75,10 @@
   pdf={2024-TIP-dPGM.pdf},
   publisher={IEEE},
   abbr={Vision},
+  bibtex_show={},
+  doi={10.1109/TIP.2024.3357251},
+  html={https://ieeexplore.ieee.org/document/10416209},
+  url={},   
   selected={false}
 }
 
@@ -68,19 +86,28 @@
 @inproceedings{2024-AAAI-KGDM,
   title={KGDM: A Diffusion Model to Capture Multiple Relation Semantics for Knowledge Graph Embedding},
   author={Long, Xiao and Zhuang, Liansheng and Li, Aodi and Wang, Jiuchang and Li, Houqiang and Wang, Shafei},
-  booktitle={Thirty-Eighth AAAI Conference on Artificial Intelligence},
-  pages ={},
+  abstract={nowledge graph embedding (KGE) is an efficient and scalable method for knowledge graph completion. However, most existing KGE methods suffer from the challenge of multiple relation semantics, which often degrades their performance. This is because most KGE methods learn fixed continuous vectors for entities (relations) and make deterministic entity predictions to complete the knowledge graph, which hardly captures multiple relation semantics. To tackle this issue, previous works try to learn complex probabilistic embeddings instead of fixed embeddings but suffer from heavy computational complexity. In contrast, this paper proposes a simple yet efficient framework namely the Knowledge Graph Diffusion Model (KGDM) to capture the multiple relation semantics in prediction. Its key idea is to cast the problem of entity prediction into conditional entity generation. Specifically, KGDM estimates the probabilistic distribution of target entities in prediction through Denoising Diffusion Probabilistic Models (DDPM). To bridge the gap between continuous diffusion models and discrete KGs, two learnable embedding functions are defined to map entities and relation to continuous vectors. To consider connectivity patterns of KGs, a Conditional Entity Denoiser model is introduced to generate target entities conditioned on given entities and relations. Extensive experiments demonstrate that KGDM significantly outperforms existing state-of-the-art methods in three benchmark datasets.},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={8},
+  pages ={8850-8858},
   year = {2024},
   month = {},
   address = {},
   pdf ={2024-AAAI-KGDM},
+  publisher={AAAI},
   abbr={Vision},
+  bibtex_show={true},
+  doi={https://doi.org/10.1609/aaai.v38i8.28732},
+  html={https://ojs.aaai.org/index.php/AAAI/article/view/28732},
+  url={},   
   selected={true}
 }
 
 @inproceedings{2023-MMAsia-PbGaR,
   title={Learning a Robust Model with Pseudo Boundaries for Noisy Temporal Action Localization},
   author={Yuan, Xinyi and Zhuang},
+  abstract={},
   booktitle={The 5th ACM International Conference on Multimedia in Asia},
   pages ={},
   year = {2023},
@@ -88,12 +115,17 @@
   address = {Taiwan, China},
   pdf ={2023-MMAsia-PbGaR.pdf},
   abbr={Vision},
+  bibtex_show={},
+  doi={},
+  html={},
+  url={},   
   selected={false}
 }
 
 @inproceedings{2023-MM-CALayoutDM,
   title={Two-stage Content-Aware Layout Generation for Poster Designs},
   author={Chai, Shang and Zhuang, Liansheng and Yan, Fengying and Zhou, Zihan},
+  abstract={},
   booktitle={The 31st ACM International Conference on Multimedia},
   pages ={8415-8423},
   year = {2023},
@@ -101,12 +133,17 @@
   address = {Ottawa, Canada},
   pdf ={2023-MM-CALayoutDM.pdf},
   abbr={Vision},
+  bibtex_show={},
+  doi={},
+  html={},
+  url={},   
   selected={false}
 }
 
 @inproceedings{2023-MM-OSTAL,
   title={Learning Generalized Representation for Open Set Temporal Action Localization},
   author={Hu, Junshan and Zhuang, Liansheng and Dong, Weisong and Ge, Shiming and Wang, Shafei},
+  abstract={},
   booktitle={The 31st ACM International Conference on Multimedia},
   pages ={1987-1996},
   year = {2023},
@@ -114,6 +151,10 @@
   address = {Ottawa, Canada},
   pdf ={2023-MM-OSTAL.pdf},
   abbr={Vision},
+  bibtex_show={},
+  doi={},
+  html={},
+  url={},   
   selected={false}
 }
 
@@ -127,6 +168,10 @@
   address = {Vancouver, BC, Canada},
   pdf ={2023-CVPR-LayoutDM.pdf},
   abbr={Vision},
+  bibtex_show={},
+  doi={},
+  html={},
+  url={},   
   selected={false}
 }
 
@@ -140,6 +185,10 @@
   address = {Gold Coast, Australia},
   pdf ={2023-IJCNN-MAPF.pdf},
   abbr={Vision},
+  bibtex_show={},
+  doi={},
+  html={},
+  url={},  
   selected={false}
 }
 
@@ -153,6 +202,10 @@
   address = {Gold Coast, Australia},
   pdf ={2023-IJCNN-BSPT.pdf},
   abbr={Vision},
+   bibtex_show={},
+  doi={},
+  html={},
+  url={},  
   selected={false}
 }
 
@@ -168,6 +221,10 @@
   pdf={2023-TMM-DSKI.pdf},
   publisher={IEEE},
   abbr={Vision},
+   bibtex_show={},
+  doi={},
+  html={},
+  url={},  
   selected={false}
 }
 
@@ -181,6 +238,10 @@
   address = {Abu Dhabi, United Arab Emirates},
   pdf ={2022-EMNLP-NMPQEM.pdf},
   abbr={NLP},
+  bibtex_show={},
+  doi={},
+  html={},
+  url={},  
   selected={false}
 }
 
